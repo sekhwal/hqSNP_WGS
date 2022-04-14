@@ -1,16 +1,16 @@
 name: hqSNP
 channels:
-  - conda-forge
-  - bioconda
-  - defaults
- dependencies:
-  - vt==2015.11.10
-  - snippy
-  - python
-  - pip
-  - numpy
-  - matplotlib
-  - pandas
-  - spades
-  - sra-tools
-  - biopython
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+ - vt==2015.11.10
+ - snippy
+ - python
+ - pip
+ - numpy
+ - matplotlib
+ - pandas
+ - spades
+ - sra-tools
+ - biopython
