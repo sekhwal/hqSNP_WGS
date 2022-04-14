@@ -1,0 +1,10 @@
+name: hqSNP
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+ - snippy=4.6.0
+ - bcftools=1.15.1 
+ - snpeff=4.3
+ - seqkit
