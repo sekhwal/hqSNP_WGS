@@ -8,3 +8,5 @@ dependencies:
  - bcftools=1.15.1 
  - snpeff=4.3
  - seqkit
+ - bbmap
+ - raxml
