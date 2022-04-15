@@ -1,6 +1,6 @@
 
 ### # hqSNP_WGS
-Pipeline to identify high quality SNPs in whole genome sequence of bacteria
+Pipeline to identify high quality SNPs in whole genome sequence of bacteria. Pipeline trim the data using bbduk as followed in the script (snippy_pipeline.sh), run the RaXML for phylogenetic tree onstruction.
 
 #### Create conda environment.Packages are listed in the environment.yaml file.
 	conda env create -f environment.yaml
