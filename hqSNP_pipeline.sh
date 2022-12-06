@@ -5,7 +5,7 @@ echo "Please wait....."
 
 for i in $(ls  *_R1.fastq.gz);
 
-do bbduk.sh -Xmx1g in=$i in2=${i/_R1/_R2} out=${i/_R1/_trim_R1} out2=${i/_R1/_trim_R2} ref=/media/mmk6053/Data/apps/Trimmomatic-0.39/adapters/NexteraPE-PE.fa k=15 qtrim=rl trimq=20 minlength=50
+do bbduk.sh -Xmx1g in=$i in2=${i/_R1/_R2} out=${i/_R1/_trim_R1} out2=${i/_R1/_trim_R2} ref=/Data/apps/Trimmomatic-0.39/adapters/NexteraPE-PE.fa k=15 qtrim=rl trimq=20 minlength=50
 
 done
 
